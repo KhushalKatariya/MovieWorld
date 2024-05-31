@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": "1bfd",
+      "mname": "Prince",
+      "mposter": "https://m.media-amazon.com/images/M/MV5BZTVlZmQxMWQtOTUzNy00NWEzLTg1MGQtZjdlOTI1MDVmMTRlXkEyXkFqcGdeQXVyNDY5MTUyNjU@._V1_QL75_UX243_.jpg",
+      "mlang": "Hindi",
+      "mgenre": "Action",
+      "mdesc": "excellent",
+      "mrating": "5"
+    },
+    {
+      "id": "2f3e",
+      "mname": "Shiddat",
+      "mposter": "https://static.toiimg.com/thumb/msid-69547328,width-219,height-317,imgsize-10370/69547328.jpg",
+      "mlang": "Hindi",
+      "mgenre": "Romanstick",
+      "mdesc": "wery gud",
+      "mrating": "5"
+    },
+    {
+      "id": "16ab",
+      "mname": "Haseen Dilruba",
+      "mposter": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/haseen-dillruba-et00122458-02-07-2021-04-46-23.jpg",
+      "mlang": "Hindi",
+      "mgenre": "Romanstick",
+      "mdesc": "wery gud",
+      "mrating": "5"
+    },
+    {
+      "id": "b0da",
+      "mname": "Desi Boyz",
+      "mposter": "https://m.media-amazon.com/images/M/MV5BOWQzYWExZGEtYzZmZS00ZWZlLWEwYWUtZTk1M2I3ZjViNDJlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+      "mlang": "Hindi",
+      "mgenre": "Drama",
+      "mdesc": "excellent",
+      "mrating": "5"
+    },
+    {
+      "id": "0175",
+      "mname": "Sita Ramam",
+      "mposter": "https://m.media-amazon.com/images/M/MV5BN2RjZDJhYzUtOTQ5Yy00OWM3LWE5OTctM2Y0YWVmNzAzODllXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_QL75_UX380_CR0,5,380,562_.jpg",
+      "mlang": "Hindi, Tamil",
+      "mgenre": "Ronastick, Action, Drama",
+      "mdesc": "excellent , Wery Gud",
+      "mrating": "5"
+    },
+    {
+      "id": "8d5e",
+      "mname": "The Amzing Spider-man ",
+      "mposter": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "mlan": "English Hindi",
+      "mgenre": "Action Fiction Drama",
+      "mdesc": "Wery gud Excellent",
+      "mrating": "5"
+    }
+  ]
+}
