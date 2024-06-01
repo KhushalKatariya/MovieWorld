@@ -29,6 +29,14 @@ img{
     gap: 5px;
 }
 
-.btn button{
+.card button{
+    font-size: 18px;
+    font-weight: bolder;
+    color: whitesmoke;
     width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }

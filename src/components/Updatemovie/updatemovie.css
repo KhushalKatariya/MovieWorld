@@ -1,11 +1,11 @@
-.movies-container{
+.update-movies-container{
     display: grid;
     justify-content: center;
     align-items: center;
     height: 60vw;
     background-color: aliceblue;
 }
-.movie-form {
+.update-movie-form {
     background-color: darkcyan;
     box-shadow: 0px 20px 10px lightgray, 0px 0 10px 10px lightgray;
     width: 30vw;
@@ -13,7 +13,7 @@
     margin: 30px 0;
 }
 
-.add-movie {
+.update-movie {
     padding: 10px 0;
     display: flex;
     justify-content: space-between;

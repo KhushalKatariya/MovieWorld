@@ -15,7 +15,7 @@ ol{
     gap: 40px;
 }
 
-a{
+.navbar a{
     text-decoration: none;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

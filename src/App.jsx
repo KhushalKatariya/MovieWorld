@@ -8,6 +8,7 @@ import Nav from './components/Nav/Nav'
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Updatemovie from './components/Updatemovie/Updatemovie'
   
   const App = () => {
     return (
@@ -19,6 +20,7 @@ import 'react-toastify/dist/ReactToastify.css';
               <Route path='/' element={<Home />}/>
               <Route path='/addmovie' element={<Addmovie/>} />
               <Route path='/viewmovie' element={<Viewmovie/>} />
+              <Route path='/updatemovie' element={<Updatemovie />} />
             </Routes>
         </BrowserRouter>
       </div>
