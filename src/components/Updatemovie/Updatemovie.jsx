@@ -5,7 +5,9 @@ import { Link, useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
 const Updatemovie = () => {
-    let {id}=useParams();
+    let { id } = useParams();
+
+    let navigate = useNavigate();
 
     let [MovieData, setMovieData] = useState({});
 
@@ -17,15 +19,15 @@ const Updatemovie = () => {
             setMovieData(data);
         }
         fetchData();
-    })
+    },[])
 
-    let updateData=(e)=>{
+    let updateData = (e) => {
         e.preventDefault();
 
-        let payload=MovieData;
-        axiosInstance.put(`/posts/${id}`,payload);
+        let payload = MovieData;
+        axiosInstance.put(`/posts/${id}`, payload);
         toast.success("Movie Updated");
-        useNavigate("/viewmovi");
+        navigate("/viewmovie")
     }
 
     return (
@@ -33,19 +35,19 @@ const Updatemovie = () => {
             <form action="" className='update-movie-form' onSubmit={updateData}>
                 <div className="update-movie">
                     <label htmlFor="" >Movie Name</label>
-                    <input type="text" name="mname" id="" onChange={data} value={MovieData.mname}/>
+                    <input type="text" name="mname" id="" onChange={data} value={MovieData.mname} />
                 </div>
                 <div className="update-movie">
                     <label htmlFor="" >Movie Poster</label>
-                    <input type="text" name="mposter" id="" onChange={data} value={MovieData.mposter}/>
+                    <input type="text" name="mposter" id="" onChange={data} value={MovieData.mposter} />
                 </div>
                 <div className="update-movie">
                     <label htmlFor="" >Movie language</label>
-                    <input type="text" name="mlang" id="" onChange={data} value={MovieData.mlang}/>
+                    <input type="text" name="mlang" id="" onChange={data} value={MovieData.mlang} />
                 </div>
                 <div className="update-movie">
                     <label htmlFor="" >Movie Genre</label>
-                    <input type="text" name="mgenre" id="" onChange={data} value={MovieData.mgenre}/>
+                    <input type="text" name="mgenre" id="" onChange={data} value={MovieData.mgenre} />
                 </div>
                 <div className="update-movie">
                     <label htmlFor="" >Movie Description</label>
@@ -62,7 +64,8 @@ const Updatemovie = () => {
                     </select>
                 </div>
                 <div className="btn">
-                <Link to="/viewmovie"><button>Update Movie</button></Link>
+                <button>Update Movie</button>
+                    {/* <Link to="/viewmovie"><button>Update Movie</button></Link> */}
                     <Link to="/viewmovie"><button>Cancel</button></Link>
                 </div>
             </form>

@@ -35,7 +35,7 @@ const Addmovie = () => {
         </div>
         <div className="add-movie">
           <label htmlFor="" >Movie language</label>
-          <input type="text" name="mlan" id="" onChange={data} />
+          <input type="text" name="mlang" id="" onChange={data} />
         </div>
         <div className="add-movie">
           <label htmlFor="" >Movie Genre</label>

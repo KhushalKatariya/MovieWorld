@@ -44,7 +44,7 @@ input:focus-visible {
     height: 10vh;
 }
 
-button{
+.btn button{
     padding: 10px 20px;
     background-color: darkmagenta;
     border: none;
@@ -52,7 +52,7 @@ button{
     transition: all 0.2s linear 0.1s;
 }
 
-button:hover{
+.btn button:hover{
     background-color: magenta;
 }
 textarea:focus-visible{

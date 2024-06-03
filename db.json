@@ -28,15 +28,6 @@
       "id": "16ab"
     },
     {
-      "id": "b0da",
-      "mname": "Desi Boyz",
-      "mposter": "https://m.media-amazon.com/images/M/MV5BOWQzYWExZGEtYzZmZS00ZWZlLWEwYWUtZTk1M2I3ZjViNDJlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_QL75_UY562_CR4,0,380,562_.jpg",
-      "mlang": "Hindi",
-      "mgenre": "Drama",
-      "mdesc": "excellent",
-      "mrating": "5"
-    },
-    {
       "id": "0175",
       "mname": "Sita Ramam",
       "mposter": "https://m.media-amazon.com/images/M/MV5BN2RjZDJhYzUtOTQ5Yy00OWM3LWE5OTctM2Y0YWVmNzAzODllXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_QL75_UX380_CR0,5,380,562_.jpg",
@@ -48,11 +39,29 @@
     {
       "id": "8d5e",
       "mname": "The Amzing Spider-man ",
-      "mposter": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "mposter": "https://images.squarespace-cdn.com/content/v1/56d74e442fe1313f8d5f8e54/1535882730825-6H7DSTA3BVU4XMYZXS0D/The+Amazing+Spiderman.jpeg",
       "mlang": "English Hindi",
       "mgenre": "Action Fiction Drama",
       "mdesc": "Wery gud Excellent",
       "mrating": "5"
+    },
+    {
+      "id": "a3f1",
+      "mname": "Desi Boyz",
+      "mposter": "https://upload.wikimedia.org/wikipedia/en/f/f5/11nov_desiboyz-poster01.jpg",
+      "mlang": "Hindi",
+      "mgenre": "Romanchicks. Drama",
+      "mdesc": "wery gud",
+      "mrating": "5"
+    },
+    {
+      "id": "de9b",
+      "mname": "Godzilla",
+      "mposter": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5MeYOotvPYyFN7FOS4yk2v9980DZrK3pGvA&s",
+      "mlang": "English ,Hindi",
+      "mgenre": "Action, Fiction",
+      "mdesc": "wery gud",
+      "mrating": "4"
     }
   ]
 }

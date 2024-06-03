@@ -17,7 +17,7 @@ const Viewmovie = () => {
 
   let deleteData=(id)=>{
     axiosInstance.delete(`/posts/${id}`);
-
+    window.location.assign("/viewmovie")
   }
   return (
     <div className='holder'>
@@ -31,7 +31,7 @@ const Viewmovie = () => {
               <h2>Movie Rating : {item.mrating}</h2>
               <div className="btn">
               <Link to={`/updatemovie/${item.id}`}><button>Update</button></Link>
-                <Link><button>Delete</button></Link>
+                <Link><button onClick={()=>{deleteData(item.id)}}>Delete</button></Link>
               </div>
             </div>
           </>

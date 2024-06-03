@@ -44,7 +44,7 @@ input:focus-visible {
     height: 10vh;
 }
 
-button{
+.btn button{
     padding: 10px 20px;
     background-color: darkmagenta;
     border: none;
@@ -57,7 +57,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.btn button:hover{
     background-color: magenta;
 }
 textarea:focus-visible{

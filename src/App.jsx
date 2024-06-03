@@ -17,7 +17,7 @@ import Updatemovie from './components/Updatemovie/Updatemovie'
         <ToastContainer />
         <Nav />
             <Routes>
-              <Route path='/' element={<Home />}/>
+              <Route path='/' element={<Viewmovie />}/>
               <Route path='/addmovie' element={<Addmovie/>} />
               <Route path='/viewmovie' element={<Viewmovie/>} />
               <Route path='/updatemovie/:id' element={<Updatemovie />} />
