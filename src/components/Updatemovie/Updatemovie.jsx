@@ -41,7 +41,7 @@ const Updatemovie = () => {
                 </div>
                 <div className="update-movie">
                     <label htmlFor="" >Movie language</label>
-                    <input type="text" name="mlan" id="" onChange={data} value={MovieData.mlan}/>
+                    <input type="text" name="mlang" id="" onChange={data} value={MovieData.mlang}/>
                 </div>
                 <div className="update-movie">
                     <label htmlFor="" >Movie Genre</label>
@@ -62,7 +62,7 @@ const Updatemovie = () => {
                     </select>
                 </div>
                 <div className="btn">
-                    <button>Update Movie</button>
+                <Link to="/viewmovie"><button>Update Movie</button></Link>
                     <Link to="/viewmovie"><button>Cancel</button></Link>
                 </div>
             </form>

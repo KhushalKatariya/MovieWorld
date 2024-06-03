@@ -23,7 +23,7 @@
       "mgenre": "Romanstick",
       "mposter": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/haseen-dillruba-et00122458-02-07-2021-04-46-23.jpg",
       "mdesc": "wery gud",
-      "mlan": "Hindi",
+      "mlang": "Hindi",
       "mrating": "4",
       "id": "16ab"
     },
@@ -49,7 +49,7 @@
       "id": "8d5e",
       "mname": "The Amzing Spider-man ",
       "mposter": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_QL75_UX380_CR0,1,380,562_.jpg",
-      "mlan": "English Hindi",
+      "mlang": "English Hindi",
       "mgenre": "Action Fiction Drama",
       "mdesc": "Wery gud Excellent",
       "mrating": "5"

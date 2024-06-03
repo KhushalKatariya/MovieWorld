@@ -50,6 +50,11 @@ button{
     border: none;
     border-radius: 10px;
     transition: all 0.2s linear 0.1s;
+    width: 100%;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 button:hover{
