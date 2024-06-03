@@ -15,6 +15,10 @@ const Viewmovie = () => {
     fetchData();
   })
 
+  let deleteData=(id)=>{
+    axiosInstance.delete(`/posts/${id}`);
+
+  }
   return (
     <div className='holder'>
       {movieData.map((item, idx) => {
@@ -26,8 +30,8 @@ const Viewmovie = () => {
               <h2>{item.mlang}</h2>
               <h2>Movie Rating : {item.mrating}</h2>
               <div className="btn">
-              <button><Link to={`/updatemovie`}>Update</Link></button>
-                <button>Delete</button>
+              <Link to={`/updatemovie/${item.id}`}><button>Update</button></Link>
+                <Link><button>Delete</button></Link>
               </div>
             </div>
           </>

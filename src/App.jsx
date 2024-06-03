@@ -20,7 +20,7 @@ import Updatemovie from './components/Updatemovie/Updatemovie'
               <Route path='/' element={<Home />}/>
               <Route path='/addmovie' element={<Addmovie/>} />
               <Route path='/viewmovie' element={<Viewmovie/>} />
-              <Route path='/updatemovie' element={<Updatemovie />} />
+              <Route path='/updatemovie/:id' element={<Updatemovie />} />
             </Routes>
         </BrowserRouter>
       </div>
