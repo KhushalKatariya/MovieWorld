@@ -9,6 +9,7 @@ import Nav from './components/Nav/Nav'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Updatemovie from './components/Updatemovie/Updatemovie'
+import DownloadMovie from './components/Download/DownloadMovie'
   
   const App = () => {
     return (
@@ -17,10 +18,11 @@ import Updatemovie from './components/Updatemovie/Updatemovie'
         <ToastContainer />
         <Nav />
             <Routes>
-              <Route path='/' element={<Viewmovie />}/>
+              <Route path='/' element={<Home />}/>
               <Route path='/addmovie' element={<Addmovie/>} />
               <Route path='/viewmovie' element={<Viewmovie/>} />
               <Route path='/updatemovie/:id' element={<Updatemovie />} />
+              <Route path='/downloadmovie' element={<DownloadMovie />} />
             </Routes>
         </BrowserRouter>
       </div>
