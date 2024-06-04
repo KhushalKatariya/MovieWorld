@@ -25,7 +25,7 @@ const Home = () => {
               <h2>{item.mlang}</h2>
               <h2>Movie Rating : {item.mrating}</h2>
               <div className="btn">
-                <Link to={"/downloadmovie"}><button>Download</button></Link>
+                <Link to={`/downloadmovie/${item.id}`}><button>Download</button></Link>
               </div>
             </div>
           </>

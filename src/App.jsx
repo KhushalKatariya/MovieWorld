@@ -22,7 +22,7 @@ import DownloadMovie from './components/Download/DownloadMovie'
               <Route path='/addmovie' element={<Addmovie/>} />
               <Route path='/viewmovie' element={<Viewmovie/>} />
               <Route path='/updatemovie/:id' element={<Updatemovie />} />
-              <Route path='/downloadmovie' element={<DownloadMovie />} />
+              <Route path='/downloadmovie/:id' element={<DownloadMovie />} />
             </Routes>
         </BrowserRouter>
       </div>

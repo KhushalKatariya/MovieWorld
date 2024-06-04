@@ -1,0 +1,19 @@
+.download-page-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bwsp{
+    padding: 20px 0;
+}
+
+.download-page-content a{
+    color: magenta;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
